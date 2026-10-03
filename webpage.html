@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ECOSAVY</title>
+        <style>
+            body {
+                font-family: 'Bahnschrift', sans-serif;
+                background: url('img15.png') no-repeat top right fixed;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                height: 100vh;
+                margin-top: 1vw;
+                link: white;
+                alink: white;
+                vlink: white;
+                text-decoration: none;
+            }
+
+            .nav-item {
+                color: white;
+                border-radius: 2vw;
+                padding: 2vw;
+                font-family: 'Bahnschrift';
+                margin-top: 1vw;
+                margin-left: 5vw;
+                display: flex;
+            }
+
+            .content {
+                color: white;
+                font-size: 3vb;
+                border-radius: 2vw;
+                padding: 1vw;
+                font-family: 'Bahnschrift', sans-serif;
+                margin-left: 5vw;
+                margin-top: 1vw;
+            }
+
+            .search-container {
+                display: flex;
+                align-items: center;
+                margin-top: 1vw;
+                margin-left: 5vw;
+                margin-bottom: 5%;
+            }
+
+            input[type="text"] {
+                flex: 1;
+                padding: 15px;
+                font-size: 3vh;
+                border: none;
+                border-radius: 5px 0 0 5px;
+                background-color: transparent;
+                color: transparent5;
+            }
+
+            input[type="text"]::placeholder {
+                color: #999;
+            }
+
+            button {
+                padding: 15px 25px;
+                font-size: 3vh;
+                background-color: transparent;
+                color: #fff;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+            .nav-item a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .nav-container {
+                display: flex;
+                font-size: 3vh;
+                max-width: fit-content;
+            }
+
+            .heading {
+                font-size: 4.5vh;
+            }
+
+            .para {
+                font-size: 4vh;
+                columns: 2;
+                -webkit-columns: 2;
+                -moz-columns: 2;
+                width: 90%;
+                height: fit-content;
+            }
+
+            .back-button {
+                margin-top: 3vw;
+                margin-left: 5vw;
+            }
+
+            .back-button a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .paragraph {
+                font-size: 4vh;
+                margin-right: 4vw;
+                width: 90%;
+            }
+
+            .paragraph2 {
+                font-size: 4vh;
+                margin-right: 4vw;
+                width: 90%;
+                margin-top: 2vw;
+                height: fit-content;
+            }
+
+            @media (max-width: 4000px) {
+                .nav-container {
+                    flex-wrap: wrap;
+                    margin-bottom: 3.5vb;
+                }
+                .nav-item {
+                    height: 50%; /* Display two items per row */
+                    width: auto; /* Reset height */
+                    text-align: center; /* Center-align text */
+                    box-sizing: border-box;
+                }
+            }
+
+            @media (max-width: 1450px) {
+                .para {
+                    columns: 1;
+                    -webkit-columns: 1;
+                    -moz-columns: 1;
+                }
+            }
+
+            .para3 {
+                font-size: 4vh;
+                margin-right: 4vw;
+                margin-bottom: 20%;
+                text-align: center;
+            }
+
+            @media (max-width: 480px) {
+                input[type="text"] {
+                    padding: 10px;
+                    font-size: 16px;
+                }
+
+                button {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                }
+            }
+        </style>
+    </head>
+
+    <body link="white", alink="white", vlink="white", style="text-decoration: none;">
+        <div class="nav-container">
+            <div class="nav-item">
+            <a href="webpage.html">HOME</a>
+            </div>
+            <div class="nav-item">
+            <a href="about.html">ABOUT</a>
+            </div>
+            <div class="nav-item">
+                <a href="Knowaboutsources.html">SOURCES</a>
+            </div>
+            <div class="nav-item">
+                <a href="mailto:contact_us@dpsbulandshahr.com">EMAIL</a>
+            </div>
+            <div class="nav-item">
+                <a href="https://wa.me/+919897376683">WHATSAPP</a>
+            </div>
+            <div class="back-button">
+                <a href="javascript:history.go(-1)" style="text-decoration: none;">BACK</a>
+            </div>
+            <div class="nav-item">
+                <a href="FAQ.html">FAQ</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="heading">
+                <h1>
+                    <b>
+                        <small><small>Unraveling the Dark Thread of:</small></small> 
+                        <br>
+                        <big>
+                            Textile Industry
+                        </big>
+                        <br>
+                    </b>
+                </h1>
+            </div>
+            <div class="paragraph">
+            The complex web of the textile business frequently hides the depressing truths woven 
+            into its fabric. Untangling its sinister thread uncovers a tale of systemic injustice,
+            worker exploitation, and environmental devastation. Underneath the glitz of fashion, 
+            there is a trail of hazardous chemical use, air pollution, and water pollution. Fast
+            fashion production leads to resource depletion and trash generation, as well. Workers
+             battle unsafe working conditions and low pay behind the scenes. We want to change 
+            the textile business into a more ethical and sustainable one, where vivid colours coexist
+             with the responsible weaving of progress, by bringing to light these hidden qualities.
+            <br><br></div>
+            <div class="search-container">
+                <form id="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+                    <input type="text" name="q" placeholder="Enter your search query...">
+                    <button type="submits">Search</button>
+                </form>
+            </div>
+            <div class="paragraph">
+                <b>Curiosity beckons – Touch any topic to unveil its secrets.</b>
+            </div>
+            <br>
+            <div class="para" style="font-weight: bold;">
+                <ul>
+                    <li>
+                        <a href="water_pollution.html" style="text-decoration: none;">
+                            Water Pollution
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="air_pollution.html" style="text-decoration: none;">
+                            Air Pollution
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="hazardous_chemicals.html" style="text-decoration: none;">
+                            Hazardous Chemicals
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="waste_generation.html" style="text-decoration: none;">
+                            Waste Generation
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="resource_depletion.html" style="text-decoration: none;">
+                            Resource Depletion
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="worker_safety.html" style="text-decoration: none;">
+                            Worker Safety
+                    </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="energy_consumption.html" style="text-decoration: none;">
+                            Energy Consumption
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="biodiversity_loss.html" style="text-decoration: none;">
+                            Biodiversity Loss
+                        </a>
+                    </li>
+                        <br>
+                    <li>
+                        <a href="microplastic_pollution.html" style="text-decoration: none;">
+                            Microplastic Pollution
+                        </a>    
+                    </li>
+                    <br>
+                    <li>
+                        <a href="worker_exploitation.html" style="text-decoration: none;">
+                            Worker Exploitation
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="chemical_exposure.html" style="text-decoration: none;">
+                            Chemical Exposure
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="fire_hazards.html" style="text-decoration: none;">
+                            Fire Hazards
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="airborne_fibers.html" style="text-decoration: none;">
+                            Airborne Fibers
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="wastewater_treatment.html" style="text-decoration: none;">
+                            Wastewater Treatment
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="climate_impact.html" style="text-decoration: none;">
+                            Climate Impact
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="child_labor.html" style="text-decoration: none;">
+                            Child Labor
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="occupational_health_risks.html" style="text-decoration: none;">
+                            Occupational Health Risks
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="water_scarcity.html" style="text-decoration: none;">
+                            Water Scarcity
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="unsafe_chemical_storage.html" style="text-decoration: none;">
+                            Unsafe Chemical Storage
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="social_injustice.html" style="text-decoration: none;">
+                            Social Injustice
+                        </a>
+                    </li>
+                </ul>
+            </div>  
+            
+            <div class="paragraph2">
+                The need to restructure the textile sector is more pressing than ever given this complex web of problems.
+                We have the ability to change the story as responsible makers, conscientious customers, and global citizens
+                . We may fix the frayed ends of this black thread by pressing for openness, encouraging sustainable practises
+                , and supporting strict rules. We can replace oppression with empowerment, pollution with stewardship, and misery 
+                with justice via innovation, education, and group effort.  <br> Let's weave a new narrative—one that embodies
+                 empathy, fortitude, and mindful creation—into the fabric of the textile sector to guarantee a better, safer
+                , and more just future for everybody.
+            </div>
+            <div class="para3">
+                THANK YOU
+            </div>
+        </div>  
+        <div class="nav-container">
+            <div class="nav-item">
+            <a href="webpage.html">HOME</a>
+            </div>
+
+            <div class="back-button">
+                <a href="javascript:history.go(-1)" style="text-decoration: none;">BACK</a>
+            </div>
+
+        </div>
+    </body>
+</html>
